@@ -1,0 +1,25 @@
+.city-table-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.city-table-header {
+  background-color: #f0f0f0;
+}
+
+.city-table-header-cell {
+  font-weight: bold;
+}
+
+.city-table-body {
+  font-size: 14px;
+}
+
+.city-table-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.city-table-row:hover {
+  background-color: transparent;
+  cursor: default;
+  box-shadow: none;
+}
